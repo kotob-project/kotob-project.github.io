@@ -19,7 +19,7 @@ const routes: Route[] = [
     },
     {
         path: "/contributors",
-        element: <Contributors />
+        element: <Contributors />,
     }
 ];
 
