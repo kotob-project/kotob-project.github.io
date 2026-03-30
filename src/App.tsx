@@ -13,7 +13,9 @@ function App() {
         <Header />
         
         <Routes>
-          {filterdRoutes.map((route) => (<Route {...route}/>))}
+          {filterdRoutes.map(({ path, element }) => (
+            <Route key={path} path={path} element={element} />
+          ))}
         </Routes>
       </div>
     </Router>

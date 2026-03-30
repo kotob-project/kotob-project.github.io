@@ -4,21 +4,21 @@ import { Contributors } from '../pages/Contributors';
 
 type Route = {
     path: string,
-    element: React.JSX.Element;
+    element: JSX.Element;
     isActive?: boolean;
 }
 
 const routes: Route[] = [
     {
-        path: "/",
+        path: '/',
         element: <Home />,
     },
     {
-        path: "/download",
+        path: '/download',
         element: <Download />
     },
     {
-        path: "/contributors",
+        path: '/contributors',
         element: <Contributors />,
     }
 ];
