@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const endpoint: string   = "https://api.github.com/repos/kotob-project/{repo}/contributors";
+const endpoint: string  = "https://api.github.com/repos/kotob-project/members"
 const projects: string[] = [
     "kotob",
     "kotob_server",
