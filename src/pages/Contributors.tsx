@@ -39,7 +39,7 @@ export const Contributors = () => {
     const [members, setMembers] = useState<Array<GitHubMember>>([]);
     useEffect(() => {
         const fetchContributors = (async () => {
-            const reposResponse = await fetch("https://api.github.com/orgs/kotob-project/members");
+const reposResponse = await fetch(endpoint);
             if (!reposResponse.ok) return alert("Failed to load repositories");
             const members = await reposResponse.json();
 
