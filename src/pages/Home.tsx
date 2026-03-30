@@ -25,7 +25,7 @@ export const Home = () => {
           {/* メインの導線 */}
           <Button label="Download" href="/download" variant="primary" />
           {/* ソースコードへの導線 */}
-          <Button label="View source" href="https://github.com/kotob-project/kotob" variant="outline" />
+          <Button label="View source" href="https://github.com/kotob-project/" variant="outline" />
         </div>
       </main>
     </div>
