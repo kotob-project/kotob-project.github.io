@@ -2,7 +2,7 @@ import { Home } from '../pages/Home'; // TOPページの中身をここに移し
 import { Download } from '../pages/Download';
 import { Contributors } from '../pages/Contributors';
 
-type Route = {
+type AppRoute = {
     path: string,
     element: JSX.Element;
     isActive?: boolean;
