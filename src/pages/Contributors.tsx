@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const endpoint: string = "https://api.github.com/args/kotob-project/members"
+const endpoint: string = "https://api.github.com/orgs/kotob-project/members"
 type GitHubMember = {
     login: string;
     id: number;
