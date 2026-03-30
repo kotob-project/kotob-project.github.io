@@ -8,7 +8,7 @@ type AppRoute = {
     isActive?: boolean;
 }
 
-const routes: Route[] = [
+const routes: AppRoute[] = [
     {
         path: '/',
         element: <Home />,
