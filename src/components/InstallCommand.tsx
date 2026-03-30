@@ -1,5 +1,4 @@
 // src/components/InstallCommand.tsx
-import { motion } from 'framer-motion';
 
 type Props = {
   command: string;
